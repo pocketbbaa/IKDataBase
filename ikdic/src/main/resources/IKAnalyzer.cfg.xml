@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>IK Analyzer 扩展配置</comment>
+
+	<!-- 配置查询类型  video comment ……-->
+	<entry key="type">0</entry>
+
+	<!-- 配置JDBC链接 -->
+	<!-- <entry key="jdbcUrl">jdbc:mysql://localhost:3306/test,root,root</entry> -->
+	<entry key="jdbcUrl">jdbc:mysql://120.55.194.82:3306/addition,test,app_test_20160504</entry>
+
+	<!-- 指定扩展字典表名 -->
+	<entry key="ext_dict_table">solr_dict</entry>
+
+	<!-- 指定禁用字典表名 -->
+	<entry key="ext_stopwords_table">solr_stopword</entry>
+
+	<!-- 指定同义词库表名 -->
+	<entry key="ext_synonyms_table">solr_synonyms</entry>
+	
+	<!-- 是否启用自动更新 -->
+	<entry key="is_auto_update">true</entry>
+	
+	<!-- 第一次更新间隔时间 单位秒 -->
+	<entry key="start_time">1</entry>
+
+    <!-- 周期间隔时间 单位秒 -->
+    <entry key="flush_time">60*60*6</entry>
+
+</properties>
