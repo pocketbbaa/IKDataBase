@@ -8,7 +8,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<lucene.version>5.5.2</lucene.version>
+		<lucene.version>8.2.0</lucene.version>
 		<javac.src.version>1.7</javac.src.version>
 		<javac.target.version>1.7</javac.target.version>
 		<maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
